@@ -1,9 +1,10 @@
 import './App.css';
-import Main from './container/main'
+
 function App() {
   return (
     <div className="App">
-      <Main/>
+      <h1>Hello, i am vikash</h1>
+      <h2> Hi , This is Sakhir </h2>
     </div>
   );
 }
