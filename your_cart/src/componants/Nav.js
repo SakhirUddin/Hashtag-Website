@@ -7,7 +7,7 @@ const Nav = () => {
       <div class="container-fluid">
         <img className="logo" src={logo} alt="img"></img>
         <a class="navbar-brand" href="#">
-          Your_cart
+          Your cart
         </a>
 
         <button
