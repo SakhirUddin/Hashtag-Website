@@ -1,34 +1,15 @@
-function convertToCSV() {
-    const excelData = document.getElementById('excelData').value;
-    
-    // Split the Excel data by newline to separate rows
-    const rows = excelData.split('\n');
+import React from 'react';
+import ReactDOM from 'react-dom/client';
+import './index.css';
+import App from './App';
+import reportWebVitals from './reportWebVitals';
 
-    // Filter out any empty rows
-    const nonEmptyRows = rows.filter(row => row.trim() !== '');
+const root = ReactDOM.createRoot(document.getElementById('root'));
+root.render(
+  <App />
+);
 
-    // Join the non-empty rows with commas to create a CSV-like list
-    const csvList = nonEmptyRows.join(', ');
-
-    // Update the 'commaSeparated' textarea with the result
-    document.getElementById('commaSeparated').value = csvList;
-}
-
-function copyToClipboard() {
-    const commaSeparated = document.getElementById('commaSeparated').value;
-    
-    // Create a temporary textarea to hold the text to be copied
-    const tempTextarea = document.createElement('textarea');
-    tempTextarea.value = commaSeparated;
-    document.body.appendChild(tempTextarea);
-
-    // Select the text in the temporary textarea and copy it to the clipboard
-    tempTextarea.select();
-    document.execCommand('copy');
-
-    // Remove the temporary textarea
-    document.body.removeChild(tempTextarea);
-
-    // Provide user feedback (optional)
-    alert('Copied to clipboard: ' + commaSeparated);
-}
+// If you want to start measuring performance in your app, pass a function
+// to log results (for example: reportWebVitals(console.log))
+// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
+reportWebVitals();
