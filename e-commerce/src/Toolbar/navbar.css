@@ -1,0 +1,27 @@
+
+.navbar {
+    background-color: #ffffff;
+    padding: 10px 0;
+  }
+  
+  .navbar-container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .navbar-links {
+    display: flex;
+  }
+  
+  .navbar-link {
+    color: #0e0d0d;
+    text-decoration: none;
+    font-size: 16px;
+    margin-right: 20px;
+    transition: color 0.3s ease;
+  }
+  
+  .navbar-link:hover {
+    color: #ffcc00; /* Change the color on hover */
+  }
+  
