@@ -1,4 +1,13 @@
+.d-block{
+  height: 80vh;
+  width: 210vh;
+}
+span{
+  color:black ;
+}
+.navbar {
+ border-color: rgb(0, 0, 0);
+}
 .logo{
-  height: 100px;
-  width: 100px;
+  height: 80px;
 }
