@@ -11,9 +11,9 @@ function App() {
   return (
     <Router>
       <Routes>
-        <Route path="/" element={<HomePage />} />
-        <Route path="/login" element={<Login />} />
-        <Route path="/SignUp" element={<SignUp/>} />
+        <Route path="/" element={<HomePage />}/>
+        <Route path="/login" element={<Login />}/>
+        <Route path="/SignUp" element={<SignUp/>}/>
         <Route path='/cart' element={<Cart/>}/>
         {/* <Route path="/product/:productId" component={ProductPage} /> */}
       </Routes>
