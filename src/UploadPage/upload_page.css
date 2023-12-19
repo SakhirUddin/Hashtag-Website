@@ -1,0 +1,300 @@
+*{
+    font-family: 'Red Rose', serif;
+}
+body , html{
+    overflow-y:visible;
+    overflow-x: hidden;
+}
+.us_banner{
+    width: inherit;
+    height: 50vh;
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.15)), url("../Img/mainImage.png");
+    background-size:cover;
+}
+.us_banner_heading{
+    margin-top: 10vh;
+    align-items: center;
+    justify-content: end;
+    
+}
+.us_banner_heading h1{
+    font-size: 40px;
+    font-weight: 900;
+    color: #FFFFFF;
+    font-family: 'Red Rose', serif;
+
+}
+.us_banner_buttonGroup{
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    margin-top: 10vh;
+    align-items: center;
+    justify-content: end;
+}
+.us_banner_buttonGroup select {
+    background: transparent;
+    outline: none;
+    border: none;
+    color: white;
+    margin-right: 50px;
+}
+
+
+/* bodyArea */
+/* .MainDiv{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+    padding: 40px;
+    gap: 40px;
+}
+.HeadingHastag h1{
+    font-weight: 400;
+    font-size: 32px;
+    color: #000000;
+    margin: 25px;
+}
+.DragAndDropSection{
+    width: 75vw;
+    height: 300px;
+    background-color: #F8F9F9;
+    border: 1px dotted;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.para1{
+    font-weight: 400;
+    font-size: 24px;
+    text-align: center;
+    color: #000000;
+}
+.para3{
+    font-weight: 400;
+    font-size: 14px;
+    text-align: center;
+    margin-top: 35px;
+    color: #8A8A8A;
+}
+textarea{
+    width: 75vw;
+    height: 230px;
+    resize: none;
+    font-size: 24px;
+    font-weight: 400;
+    color: #000000;
+    padding-left: 50px;
+} */
+.DragAndDropSection{
+    width: 75vw;
+    height: 300px;
+    background-color: #F8F9F9;
+    border: 1px dotted;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.TypseHastag{
+    width: 75vw;
+    height: 230px;
+    background-color: #F8F9F9;
+    border: 1px dotted;
+    font-size: 24px;
+    padding-left: 20px;
+}
+
+.MainDiv{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+    padding: 40px;
+    gap: 40px;
+}
+.HeadingHastag{
+    font-weight: 400;
+    font-size: 32px;
+    color: #000000;
+    
+}
+textarea{
+    resize: none;
+}
+/* textarea{
+    height: 230px;
+    resize: none;
+    font-size: 24px;
+    font-weight: 400;
+    color: #000000;
+    padding-left: 20px;
+} */
+
+
+
+.button{
+    width: 120px;
+    outline: none;
+    border: none;
+    color: white;
+    border: black 2px solid;
+    margin-top: 20px;
+}
+
+.button:hover{
+    box-shadow: 0px 0px 10px blue ;
+}
+.para1{
+    font-weight: 400;
+    font-size: 24px;
+    text-align: center;
+    color: #000000;
+}
+.para3{
+    font-weight: 400;
+    font-size: 14px;
+    text-align: center;
+    margin-top: 35px;
+    color: #8A8A8A;
+}
+.selectFile label:hover{
+    box-shadow: 0px 0px 10px blue ;
+}
+
+/* bannerMedia */
+@media (max-width:767px){
+    .us_banner_buttonGroup{
+        margin-top: 0px;
+        align-items: center;
+        justify-content: end;
+        position: relative;
+        bottom: 50px;
+    }
+    .us_banner_buttonGroup select {
+        margin-right: 25px;
+    }
+}
+@media (max-width:577px){
+    .us_banner_buttonGroup{
+        margin-top: 25px;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+        bottom: 0px;
+    }
+    .us_banner_heading{
+        margin-top: 10vh;
+        justify-content: flex-end;
+        position: relative;
+        left: 30%;
+    }
+    .us_banner_buttonGroup select {
+        margin-right: 15px;
+    }
+    .us_banner_heading{
+        left: 25%;
+    }
+}
+@media(min-width:445px) and (max-width:576px){
+    .us_banner_heading{
+        left: 30%;
+    }
+}
+
+
+@media (max-width:375px){
+    .us_banner_heading{
+        left: 15%;
+    }
+}
+
+/* bodyArea mediaFrame */
+@media (max-width:810px){
+    .para1{
+        font-size: 20px;
+    }
+    .TypseHastag{
+        height: 200px;
+        font-size: 20px;
+        padding-left: 20px;
+    }
+    .DragAndDropSection{
+        height: 250px;
+    }
+    .MainDiv{
+        padding: 20px;
+        gap: 20px;
+    }
+    .HeadingHastag{
+        font-size: 28px;
+    }
+}
+@media (max-width:695px){
+    .para1{
+        font-size: 18px;
+    }
+    .DragAndDropSection{
+        height: 230px;
+    }
+    .TypseHastag{
+        height: 180px;
+        font-size: 18px;
+    }
+    .HeadingHastag{
+        font-size: 24px;
+    }
+}
+@media (max-width:600px){
+    .para1{
+        padding: 10px 10px 0px 10px ;
+        
+        font-size: 16px;
+    }
+    .DragAndDropSection{
+        height: 200px;
+    }
+    .TypseHastag{
+        padding: 5px 12px;
+        font-size: 16px;
+        height: 150px;
+    }
+    .para3{
+        font-size: 10px;
+        margin-top: 10px;
+    }
+    .MainDiv{
+        padding: 15px;
+        gap: 15px;
+    }
+    
+}
+@media (max-width:410px){
+    .para1{
+        font-size: 15px;
+        padding-top: 0px;
+    }
+    .DragAndDropSection{
+        height: 180px;
+    }
+    .TypseHastag{
+        height: 130px;
+        font-size: 14px;
+    }
+    .para3{
+        font-size: 9px;
+        margin-top: 0px;
+    }
+    .HeadingHastag{
+        font-size: 22px;
+    }
+}
+
+
+/* bodyArea mediaFrame */

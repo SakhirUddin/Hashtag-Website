@@ -1,0 +1,306 @@
+/*  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Red Rose', serif;
+}
+body,html{
+    overflow: visible;
+    overflow-x: hidden;
+}
+
+.imagee-div{
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.15)), url("../Img/mainImage.png");
+    background-size:cover;
+    padding: 25px;
+}
+.imagee-div img{
+    width: 100%;
+    height: auto;
+}
+.buttonGroups{
+    display: flex;
+    gap: 25px;
+}
+.doublebtns{
+    display: flex;
+    gap: 25px;
+    position: relative;
+} */
+/* body , html{
+    overflow: auto;
+}
+.us_banner{
+    width: 100%;
+    height: 50vh;
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.15)), url("../Img/mainImage.png");
+    background-size:cover;
+}
+.us_banner_heading{
+    margin-top: 10vh;
+    align-items: center;
+    justify-content: end;
+    
+}
+.us_banner_heading h1{
+    font-size: 40px;
+    font-weight: 900;
+    color: #FFFFFF;
+    font-family: 'Red Rose', serif;
+
+}
+.us_banner_buttonGroup{
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    margin-top: 10vh;
+    align-items: center;
+    justify-content: end;
+}
+.us_banner_buttonGroup select {
+    background: transparent;
+    outline: none;
+    border: none;
+    color: white;
+    margin-right: 50px;
+}
+.DragAndDropSection{
+    width: 75vw;
+    height: 300px;
+    background-color: #F8F9F9;
+    border: 1px dotted;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.TypseHastag{
+    width: 75vw;
+    height: 230px;
+    background-color: #F8F9F9;
+    border: 1px dotted;
+}
+
+.MainDiv{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+    padding: 40px;
+    gap: 40px;
+}
+.HeadingHastag{
+    font-weight: 400;
+    font-size: 32px;
+    color: #000000;
+    
+}
+textarea{
+    height: 230px;
+    resize: none;
+    font-size: 24px;
+    font-weight: 400;
+    color: #000000;
+    padding-left: 20px;
+}
+.file{
+    background-color: black;
+}
+
+
+.button{
+    background-color: black;
+    width: 120px;
+    outline: none;
+    border: none;
+}
+#Button{
+    margin-bottom: 50px;
+}
+.button:hover{
+    background-color: white;
+    color: blue;
+    border: black 2px solid;
+    box-shadow: 0px 0px 10px blue;
+}
+.para1{
+    font-weight: 400;
+    font-size: 24px;
+    text-align: center;
+    color: #000000;
+}
+.para3{
+    font-weight: 400;
+    font-size: 14px;
+    text-align: center;
+    margin-top: 35px;
+    color: #8A8A8A;
+} */
+
+/* bannerMediaScreen */
+/* @media (max-width:767px){
+    .us_banner_buttonGroup{
+        margin-top: 0px;
+        align-items: center;
+        justify-content: end;
+        position: relative;
+        bottom: 50px;
+    }
+    .us_banner_buttonGroup select {
+        margin-right: 25px;
+    }
+}
+@media (max-width:577px){
+    .us_banner_buttonGroup{
+        margin-top: 25px;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+        bottom: 0px;
+    }
+    .us_banner_heading{
+        margin-top: 10vh;
+        justify-content: flex-end;
+        position: relative;
+        left: 30%;
+    }
+    .us_banner_buttonGroup select {
+        margin-right: 15px;
+    }
+}
+@media (max-width:577px){
+    .us_banner_heading{
+        left: 25%;
+    }
+}
+@media (max-width:375px){
+    .us_banner_heading{
+        left: 15%;
+    }
+} */
+/* bannerMediaScreen */
+
+
+
+/* @media(min-width:560px) and (max-width:752px){
+    .para1{
+        font-size: 18px;
+    }
+    textarea{
+        font-size: 1px;
+    }
+    .HeadingHastag{
+        font-size: 30px;
+    }
+    .MainDiv{
+        gap: 25px;
+    }
+    
+}
+@media (max-width:400px){
+    .para1{
+        font-size: 14px;
+    }
+    textarea{
+        font-size: 16px;
+    }
+    .para3{
+        font-size: 12px;
+    }
+    .HeadingHastag{
+        font-size: 26px;
+    }
+    
+}
+
+ @media (max-width:360px){
+
+  .buttonGroups select{
+    margin-bottom: 75px;
+    left: 25px;
+  }
+  .doublebtns img{
+    height: fit-content;
+}
+.headingHas{
+    position: relative;
+    left: 100px;
+}
+.MainDiv{
+    gap: 25px;
+}
+.NavLinks{
+    position: relative;
+    right: 25px;
+    font-size: 20px;
+}
+
+
+}
+@media (max-width:415px){
+    .buttonGroups{
+        display: flex;
+        flex-direction: row;
+    }
+   
+    .MainDiv{
+        gap: 25px;
+    }
+    .DragAndDropSection{
+        height: 180px;
+    }
+    .TypseHastag{
+        height: 110px;
+    }
+    textarea{
+        font-size: 14px;
+    }
+    .para1{
+        font-size: 14px;
+        padding: 0px 10px;
+    }
+    .para3{
+        margin-top: 2px;
+        font-size: 10px;
+    }
+}
+@media (max-width:545px){
+    .NavLinks{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+    .headingHas{
+        position: relative;
+        left: 60px;
+    }
+}
+@media (min-width:360px) and (max-width:450px){
+    .headingHas{
+        position: relative;
+        left: 40px;
+    }
+    .NavLinks{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        position: relative;
+        right: 30px;
+    }
+}
+
+@media (min-width:501px) and (max-width:560px){
+    .MainDiv{
+        gap: 25px;
+    }
+    
+}  */
+
+
+
+
+
+
+ 

@@ -1,0 +1,21 @@
+.ButtonInt{
+    font-size: 18px;
+    font-weight: 400;
+    height: 55px;
+    width: 60%;
+    margin-top: 25px;
+    line-height: 22.48px;
+    font-family: 'Red Rose', sans-serif;
+}
+@media (max-width:515px){
+    .ButtonInt{
+        width: 75%;
+        margin-top: 10px;
+    }
+}
+@media (max-width:300px){
+    .ButtonInt{
+        width: 100%;
+        margin-top: 10px;
+    }
+}

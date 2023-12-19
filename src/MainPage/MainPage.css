@@ -1,0 +1,278 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Red Rose', serif;
+}
+
+
+.heading{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 48px;
+    font-weight: 700;
+}
+.searchPad{
+    width: 75%;
+}
+
+.Outer-container{
+    width: 100%;
+    height: auto;
+}
+.inner-container{
+    width: 100%;
+    height: auto;
+}
+.image-div{
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.15)), url("../Img/mainImage.png");
+    height: 500px;
+    background-size:cover;
+    
+}
+
+
+select{
+    color: rgba(146, 146, 146, 1);
+}
+select option{
+    background-color: white;
+    border-color: black;
+}
+
+button{
+    font-size: 13px;
+    border: 1px solid rgba(211, 211, 211, 1);
+    padding: 4px 10px;
+    border-radius: 3px;
+    color: rgba(138, 138, 138, 1);
+}
+.footer-div{
+    color: rgba(138, 138, 138, 1);
+} 
+
+.image-container{
+    width: 100%;
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.15));
+}
+.buttonGroups{
+    display: flex;
+    gap: 25px;
+}
+.doublebtns{
+    display: flex;
+    gap: 25px;
+}
+.btn-grps{
+    display: flex;
+    width: 100%;
+    
+   
+    overflow-x:scroll;
+    -ms-overflow-style: none;
+}
+
+@media(max-width:476px){
+    .buttonGroups{
+        display: flex;
+        flex-direction: row;
+        gap: 10%;
+        
+    }  
+    
+}
+@media(max-width:640px){
+        .NavLinks{
+                display: flex;
+                justify-content: center;
+                flex-direction: column;
+                align-items: center;
+                gap: 25px;
+        }   
+        .image-div{
+            width: 100%;
+            height: auto;
+        }
+        .popular-heading{
+            font-size: 28px;
+        }
+       
+        .buttonGroups{
+            gap: 200px;
+        }
+        .doublebtns{
+            display: flex;
+            gap: 5px;
+        }
+        .btn-grps{
+            display: flex;
+            flex-direction: row;
+            padding: 0;
+            gap: 1px;
+        }
+
+        .heading{
+            font-size: 26px;
+        }
+        .image-div{
+            display: flex;
+            flex-direction: column;
+            gap: 40px;
+        }
+        .searchPad{
+            width: 100%;
+        }
+        .NavLinks .LoginBtn{
+            left: 50px;
+        }
+        .footer-div>h1{
+            font-size: 32px;
+        }
+        .footer-div>p{
+            font-size: 22px;
+        }
+}
+@media(max-width:469px){
+    .heading{
+        font-size: 22px;
+    }
+}
+@media(max-width:459px){
+    .SearchPlace{
+        font-size: 13px;
+        width: 100%;
+        padding: 12px 38px;
+    }
+    .searchPad select{
+        font-size: 12px;
+        top: 15px;
+
+    }
+    .searchPad span{
+        top: 15px;
+    }
+    
+    .searchPad span img{
+        width: 12px;
+    }
+}
+
+@media(min-width:640px) and (max-width:1024px){
+    .heading{
+        font-size: 28px;
+    
+    }
+    .popular-heading{
+        font-size: 34px;
+    }
+}
+@media(min-width:640px) and (max-width:1025px){
+    .image-div{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        height: 300px;
+    }
+    body , html{
+        overflow-x: hidden;
+        overflow-y: scroll;
+        scroll-behavior: smooth;
+    }
+}
+@media(max-width:535px){
+    .buttonGroups button{
+        font-size: 12px;
+    }
+    .buttonGroups select{
+        font-size: 14px;
+    }
+    .heading{
+        font-size: 17px;
+        width: 100%;
+    }
+    .SearchPlace{
+        padding: 12px 40px;
+        font-size: 13px;
+    }
+    .searchPad span img{
+        width: 12px;
+    }
+    .searchPad span{
+        top: 15px;
+    }
+    .searchPad select{
+        top: 15px;
+        font-size: 13px;
+    }
+}
+
+
+@media(max-width:410px){
+    .buttonGroups button{
+        font-size: 14px;
+    }
+    .buttonGroups select{
+        font-size: 16px;
+    }
+    .buttonGroups{
+        left: 5px;
+    }
+    .heading{
+        font-size: 18px;
+        width: 100%;
+    }
+    .SearchPlace{
+        padding: 12px 40px;
+        font-size: 10px;
+    }
+    .searchPad span img{
+        width: 9px;
+    }
+    .searchPad span{
+        top: 15px;
+    }
+    .searchPad select{
+        top: 13px;
+        font-size: 9px;
+    }
+    .footer-div>h1{
+        font-size: 28px;
+    }
+    .footer-div>p{
+        font-size: 17px;
+    }
+}
+@media(max-width:360px){
+    .buttonGroups button{
+        font-size: 12px;
+        height: 35px;
+        width: 125px;
+    }
+    .image-div{
+        height: 400px;
+    }
+    .doublebtns{
+        display: flex;
+        flex-direction: column;
+    }
+    .heading{
+        margin-bottom: 150px;
+    }
+    .searchPad{
+        bottom: 150px;
+    }
+    .footer-div>h1{
+        font-size: 24px;
+    }
+    .footer-div>p{
+        font-size: 14px;
+    }
+    
+}
+
+
+
+
+
+.btn-grps::-webkit-scrollbar{
+    display: none;
+}

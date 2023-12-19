@@ -1,0 +1,260 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Red Rose', serif;
+}
+body,html{
+    overflow: visible;
+    overflow-x: hidden;
+}
+.main-div{
+    width: 100%;
+    height: 100vh;
+    
+
+}
+.heading{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 48px;
+    font-weight: 700;
+}
+.searchPad{
+    width: 75%;
+}
+
+.Outer-container{
+    width: 100%;
+    height: auto;
+}
+.inner-container{
+    width: 100%;
+    height: auto;
+}
+.image-div{
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.15)), url("../Img/mainImage.png");
+    height: 500px;
+    background-size:cover;
+    
+}
+select{
+    color: rgba(146, 146, 146, 1);
+}
+
+
+button{
+    font-size: 13px;
+    border: 1px solid rgba(211, 211, 211, 1);
+    padding: 4px 12px;
+    border-radius: 3px;
+    color: rgba(138, 138, 138, 1);
+}
+.footer-div{
+    color: rgba(138, 138, 138, 1);
+} 
+
+.image-container{
+    width: 100%;
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.15));
+}
+.buttonGroups{
+    display: flex;
+    gap: 25px;
+}
+.doublebtns{
+    display: flex;
+    gap: 25px;
+    position: relative;
+}
+.uploadSection{
+    position: relative;
+}
+
+.uploadImg{
+    position: absolute;
+    top: 14px;
+    left: 10px;
+    
+}
+.buttonUp{
+    width: 120px;
+    height: 45px;
+    padding-left:20px;
+
+}
+.btn-grps{
+    display: flex;
+    width: 100%;
+    gap: 50px;
+    overflow-x:scroll;
+    -ms-overflow-style: none;
+}
+@media(max-width:640px){
+        .NavLinks{
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            align-items: center;
+            gap: 25px;
+        }  
+        .popularHastag{
+            font-size: 28px;
+        } 
+        .image-div{
+            width: 100%;
+            height: auto;
+        }
+        
+        /* .buttonGroups{
+            gap: 200px;
+        } */
+        .doublebtns{
+            display: flex;
+            gap: 5px;
+        }
+
+        .heading{
+            font-size: 26px;
+        }
+        .image-div{
+            display: flex;
+            flex-direction: column;
+            gap: 40px;
+        }
+        .searchPad{
+            width: 100%;
+        }
+        .NavLinks .LoginBtn{
+            left: 50px;
+        }
+}
+@media(max-width:469px){
+    .heading{
+        font-size: 22px;
+    }
+}
+@media(max-width:459px){
+    .SearchPlace{
+        font-size: 13px;
+        width: 100%;
+        padding: 12px 38px;
+    }
+    .searchPad select{
+        font-size: 12px;
+        top: 15px;
+
+    }
+    .searchPad span{
+        top: 15px;
+    }
+    
+    .searchPad span img{
+        width: 12px;
+    }
+}
+
+
+@media(min-width:640px) and (max-width:1025px){
+    .image-div{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        height: 300px;
+    }
+    .heading{
+        font-size: 36px;
+    
+    }
+}
+@media(max-width:535px){
+    .buttonGroups button{
+        font-size: 12px;
+    }
+    .popularHastag{
+        font-size: 24px;
+    } 
+    .buttonGroups select{
+        font-size: 14px;
+    }
+    .heading{
+        font-size: 17px;
+        width: 100%;
+    }
+    .SearchPlace{
+        padding: 12px 40px;
+        font-size: 13px;
+    }
+    .searchPad span img{
+        width: 12px;
+    }
+    .searchPad span{
+        top: 15px;
+    }
+    .searchPad select{
+        top: 15px;
+        font-size: 13px;
+    }
+    .footer-div h1{
+        font-size: 28px;
+    }
+    .footer-div p{
+        font-size: 20px;
+    }
+}
+@media(min-width:411px)and (max-width:440px){
+    .buttonGroups{
+        position: relative;
+        right: 40px;
+    }
+}
+
+@media(max-width:410px){
+    .buttonGroups{position: relative;
+        right: 50px;
+    }
+    .buttonGroups button{
+        font-size: 12px;
+    }
+    .buttonGroups select{
+        font-size: 14px;
+    }
+    .heading{
+        font-size: 17px;
+        width: 100%;
+    }
+    #uploadImage{
+        height: 16px;
+        width: 16px;
+    }
+    .uploadSection input{
+        width: 85px;
+        padding-left: 10px;
+        
+    }
+    .SearchPlace{
+        padding: 12px 40px;
+        font-size: 10px;
+    }
+    .searchPad span img{
+        width: 9px;
+    }
+    .searchPad span{
+        top: 15px;
+    }
+    .searchPad select{
+        top: 13px;
+        font-size: 9px;
+    }
+    .fooot{
+        font-size: 16px;
+    }
+}
+
+
+
+
+
+
+.btn-grps::-webkit-scrollbar{
+    display: none;
+}

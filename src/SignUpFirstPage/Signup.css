@@ -1,0 +1,36 @@
+*{
+  font-family: 'Red Rose', serif;
+  
+}
+.main{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  overflow: hidden;
+
+  
+}
+.content{
+  width: 100%;
+  background-color: #FFFFFF;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+.ImagePhoto{
+  height: auto;
+  width: 100%;
+  padding: 10px;
+}
+.ImagePhoto img{
+  width: 100%;
+  height: auto;
+}
+.signup{
+  font-size: 2.5rem;
+  font-family: 'Red Rose', serif;
+}

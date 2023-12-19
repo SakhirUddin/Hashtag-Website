@@ -1,0 +1,109 @@
+.Icon{
+    position: absolute;
+    margin-left: 20px;
+    margin-top: 14px;
+    z-index: 1;
+}
+.InputArea{
+    height: 55px;
+    padding-left: 50px;
+    
+}
+.EyeIcon{
+    position: absolute;
+    left: 500px;
+    top: 15px;
+    
+}
+.InputArea::placeholder{
+    color: #6E6E6E;
+    font-size: 18px;
+    font-family: 'Red Rose', sans-serif;
+}
+.Inputs{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#usernameIcon{
+    bottom: 15px;
+}
+.InputBars{
+    width: 60%;
+    margin-top: 10px;
+    position: relative;
+}
+@media   (max-width:1000px){
+    .EyeIcon{
+        margin-left:50%;
+    }
+}
+@media (max-width:515px){
+    .InputBars{
+        width: 75%;
+        margin-top: 10px;
+    }
+    
+    .Icon{
+        top: 0px;
+    }
+    .EyeIcon{
+        margin-left:60%;
+    }
+    
+    #usernameIcon{
+        top: 0px;
+    }
+    .InputArea::placeholder{
+        font-size: 17px;
+    }
+    .InputArea{
+        padding-left: 50px;
+        height: 55px;
+        padding-right: 0px;
+        
+    }
+}
+
+@media (max-width:300px){
+    .InputBars{
+        width: 100%;
+        
+    }
+    .InputBars img{
+        width: 75%;
+    }
+    .EyeIcon{
+        margin-left:75%;
+    }
+    .InputArea::placeholder{
+        font-size: 14px;
+    }
+
+}
+
+
+/* @media (min-width:0px) and  (max-width:700px){
+    .InputBars{
+        width: 70%;
+        margin-top: 15px;
+    }
+    .Inputs{
+        display: flex;
+        justify-content: center;
+        height: 50%;
+    }
+    .InputArea{
+        height: 55px; 
+    }
+    .EyeIcon{
+        margin-left: 60%;
+        margin-top: 14px;
+    }
+    .InputArea::placeholder{
+        font-size: 16px;
+        
+    }
+
+} */

@@ -1,0 +1,10 @@
+@media  (max-width:835px) {
+  .main{
+      flex-direction: column-reverse;
+      height: auto;
+      }
+      body,html{
+        font-family: 'Red Rose', serif;
+        overflow-x:hidden;
+      }
+    }

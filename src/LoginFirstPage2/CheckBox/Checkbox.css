@@ -1,0 +1,45 @@
+.CheckBox{
+    display: flex;
+    width: 60%;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 15px;
+    font-size: 14px;
+}
+.SpanCheck a {
+    color: #6E6E6E;
+}
+.InputCheck{
+    position: relative;
+    margin-right: 8px;
+    top: 3px;
+}
+
+@media  (max-width:700px){
+    .CheckBox{
+        width: 69%;
+        margin-bottom: 15px;
+        font-size: 14px;
+    }
+}
+@media  (min-width:701px) and (max-width:920px){
+    .CheckBox{
+        font-size: 12px;
+    }
+    .SpanCheck  {
+        margin-top: 5px;
+    }
+}
+
+@media (min-width:326px) and  (max-width:390px){
+    .CheckBox{
+        width: 80%;
+        margin-top: 10px;
+    }
+}
+@media (max-width:360px){
+    .CheckBox{
+        width: 80%;
+        font-size: 12px;
+    }
+}

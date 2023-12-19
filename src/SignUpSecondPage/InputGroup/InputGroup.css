@@ -1,0 +1,109 @@
+.Icon{
+    position: absolute;
+    margin-left: 20px;
+    margin-top: 12px;
+    z-index: 1;
+}
+.InputArea{
+    height: 55px;
+    padding-right: 40px;
+    padding-left: 60px;   
+}
+.EyeIcon{
+    position: absolute;
+    left: 500px;
+    top: 15px;
+    
+}
+#userIcon{
+    bottom: 15px;
+}
+#mailIcon{
+    top: 2px;
+}
+.InputArea::placeholder{
+    color: #6E6E6E;
+    font-size: 18px;
+    font-family: 'Red Rose', sans-serif;
+}
+.Inputs{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.InputBars{
+    width: 60%;
+    margin-top: 10px;
+    position: relative;
+}
+
+@media (max-width:515px){
+    .InputBars{
+        width: 75%;
+        margin-top: 10px;
+    }
+    .InputBars img{
+        width: 100%;
+    }
+    .Icon{
+        margin-top: 13px;
+        z-index: 1;
+    }
+    .EyeIcon{
+        margin-left:60%;
+    }
+    .InputArea::placeholder{
+        font-size: 18px;
+        padding-left: 15px;
+    }
+    .InputArea{
+        padding-left: 45px;
+        height: 55px;
+        padding-right: 0px;
+        
+    }
+}
+
+@media (max-width:300px){
+    .InputBars{
+        width: 100%;
+        
+    }
+    .InputBars img{
+        width: 75%;
+    }
+    .EyeIcon{
+        margin-left:75%;
+    }
+    .InputArea::placeholder{
+        font-size: 18px;
+    }
+
+}
+
+
+/* @media (min-width:0px) and  (max-width:700px){
+    .InputBars{
+        width: 70%;
+        margin-top: 15px;
+    }
+    .Inputs{
+        display: flex;
+        justify-content: center;
+        height: 50%;
+    }
+    .InputArea{
+        height: 55px; 
+    }
+    .EyeIcon{
+        margin-left: 60%;
+        margin-top: 14px;
+    }
+    .InputArea::placeholder{
+        font-size: 16px;
+        
+    }
+
+} */
