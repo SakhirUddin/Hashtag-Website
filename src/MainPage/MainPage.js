@@ -24,7 +24,7 @@ function MainPage() {
                             <h1 className="text-white text-3xl font-bold logo">#Hashtag</h1>
                         </div>
                         <div className="text-white flex buttonGroups">
-                            <select className="px-[5px]  bg-transparent mr-1 text-white">
+                            <select className="px-[5px]  bg-transparent text-white">
                                 <option>Explore </option>
                                 <option>LookOut</option>
                                 <option>NewShines</option>
@@ -42,7 +42,7 @@ function MainPage() {
                         <div className="w-3/4 relative searchPad">
                             <span className="top-[20px] left-[12px] absolute"><img src={Search} className="w-[15px]"></img></span>
                             <input className=" SearchPlace w-[100%] py-[15px] px-[40px] rounded text-[16px] outline-none" placeholder="Search for all images on #Hastag"></input>
-                            <select className="absolute right-[15px] bg-transparent top-[16px] text-[13px]">
+                            <select className="absolute right-[15px] top-[16px] text-[13px]">
                                 <option>All Images</option>
                                 <option>Featured</option>
                                 <option>On Trend</option>

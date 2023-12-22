@@ -25,7 +25,7 @@
 }
 .image-div{
     background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.15)), url("../Img/mainImage.png");
-    height: 500px;
+    height: 500px;  
     background-size:cover;
     
 }
@@ -35,8 +35,7 @@ select{
     color: rgba(146, 146, 146, 1);
 }
 select option{
-    background-color: white;
-    border-color: black;
+    border-color:black;
 }
 
 button{
@@ -65,8 +64,6 @@ button{
 .btn-grps{
     display: flex;
     width: 100%;
-    
-   
     overflow-x:scroll;
     -ms-overflow-style: none;
 }
